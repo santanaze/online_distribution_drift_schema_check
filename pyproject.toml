@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "santanaze-asr_jd152"
+name = "santanaze-online_distribution_drift_schema_check"
 version = "0.1.0"
 description = "从样本里推断语音识别算法工程师·线上分布漂移的检测应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://santanaze.github.io"
-Repository = "https://github.com/santanaze/asr_jd152"
-Issues = "https://github.com/santanaze/asr_jd152/issues"
+Repository = "https://github.com/santanaze/online_distribution_drift_schema_check"
+Issues = "https://github.com/santanaze/online_distribution_drift_schema_check/issues"
 
 [project.scripts]
-asr_jd152 = "asr_jd152:main"
+online_distribution_drift_schema_check = "online_distribution_drift_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["asr_jd152"]
+py-modules = ["online_distribution_drift_schema_check"]
